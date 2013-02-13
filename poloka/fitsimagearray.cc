@@ -7,10 +7,12 @@
  */
 
 #include <iostream>
+#include <ctime>
+
 #include <fitsio.h>
-#include "fitsimagearray.h"
-#include "fileutils.h"
-#include <time.h>
+
+#include <poloka/fitsimagearray.h>
+#include <poloka/fileutils.h>
 
 // uncomment this to get a lot of output
 #define DEBUG 

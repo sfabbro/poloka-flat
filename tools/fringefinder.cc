@@ -1,21 +1,9 @@
-/* 
- * $Source: /cvs/snovae/toads/poloka/flat/fringefinder.cc,v $
- * $Revision: 1.2 $
- * $Author: guy $
- * $Date: 2006/12/22 13:35:40 $
- * $Name:  $
- */
 #include <iostream>
 
-// TOADS
-#include "fitsimage.h"
-#include "matvect.h"
-#include "fringeutils.h"
-#include "fitsimagearray.h"
-
-
-// get cvs version of the code
-#define CVSVERSION "$Revision: 1.2 $"
+#include <poloka/fitsimage.h>
+#include <poloka/matvect.h>
+#include <poloka/fringeutils.h>
+#include <poloka/fitsimagearray.h>
 
 
 void DumpHelp(const char* programname) {
@@ -228,7 +216,7 @@ int main(int argc, char **argv) {
   
   fringes.AddCommentLine("----------------------------------------");
   
-  sprintf(comment,"Images produced by fringefinder version %s",CVSVERSION);
+  sprintf(comment,"Images produced by fringefinder");
   cout << comment << endl; fringes.AddCommentLine(comment);
   
   sprintf(comment,"Fringes output file name is %s",fringesname.c_str());

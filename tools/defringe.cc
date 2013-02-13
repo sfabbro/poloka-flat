@@ -2,13 +2,10 @@
 #include <iostream>
 #include <vector>
 
-#include "image.h"
-#include "fitsimage.h"
-#include "fitsimagearray.h"
-#include "fringeutils.h"
-//#include "dbimage.h"
-// get cvs version of the code
-//#define CVSVERSION "$Revision: 1.2 $"
+#include <poloka/image.h>
+#include <poloka/fitsimage.h>
+#include <poloka/fitsimagearray.h>
+#include <poloka/fringeutils.h>
 
 void DumpHelp(const char *progName) {
   cout     << progName << " removes fringes of a FITS image" << endl

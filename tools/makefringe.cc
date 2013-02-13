@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <cstdio>
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 #include <string>
 
-#include "fileutils.h"
-#include "fitsimage.h"
-#include "superflat.h"
+#include <poloka/fileutils.h>
+#include <poloka/fitsimage.h>
+#include <poloka/superflat.h>
 
 void usage()
 {

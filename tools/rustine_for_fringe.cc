@@ -2,8 +2,8 @@
 #include <vector>
 #include <fstream>
 
-#include "fitsimage.h"
-#include "histo1d.h"
+#include <poloka/fitsimage.h>
+#include <poloka/histo1d.h>
 
 
 class mypixel{

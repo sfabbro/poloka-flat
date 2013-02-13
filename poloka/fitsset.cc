@@ -1,12 +1,12 @@
 #include <iostream>
 #include <fstream>
 
-#include "fitsset.h"
-#include "fileutils.h"
-//#include "dbimage.h"
-#include "fitsimage.h"
-#include "fitstoad.h"
-#include "frame.h"
+#include <poloka/fitsset.h>
+#include <poloka/fileutils.h>
+#include <poloka/fitsimage.h>
+#include <poloka/fitstoad.h>
+#include <poloka/frame.h>
+
 FitsSet::FitsSet(const string &ListName, const bool CheckFilter, const bool CheckCCD)
 {
 vector<string> names;

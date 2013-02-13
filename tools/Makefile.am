@@ -8,7 +8,7 @@ AM_CPPFLAGS = @POLOKA_CORE_CFLAGS@
 AM_DEFAULT_SOURCE_EXT = .cc
 
 bin_PROGRAMS = \
-	correlation flatfield medianstack trim \
-	defringe fringefinder makefringe
+	correlation flatfield medianstack trim checkelixirflats \
+	defringe fringefinder makefringe rustine_for_fringe
 
 LDADD = $(top_builddir)/poloka/libpoloka-flat.la

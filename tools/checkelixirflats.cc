@@ -2,16 +2,15 @@
 // 
 // 
 #include <getopt.h>
-#include <assert.h>
-
+#include <cassert>
 #include <iostream>
 #include <iomanip>
 #include <fstream>
 #include <vector>
 #include <string>
 
-#include "fitsimage.h"
-#include "vutils.h"
+#include <poloka/fitsimage.h>
+#include <poloka/vutils.h>
 
 
 using namespace std;

@@ -9,12 +9,13 @@
 #include <iostream>
 
 // TOADS
-#include "fitsimage.h"
-#include "fitsimagearray.h"
-#include "vutils.h"
-#include "fringeutils.h"
-#include "imageback.h"
-#include "matvect.h"
+#include <poloka/fitsimage.h>
+#include <poloka/vutils.h>
+#include <poloka/imageback.h>
+#include <poloka/matvect.h>
+
+#include <poloka/fitsimagearray.h>
+#include <poloka/fringeutils.h>
 
 //uncomment this to get a lot of output
 #define VERBOSE 

@@ -1,12 +1,9 @@
 #include <iostream>
 #include <string>
-//#include <fstream>
 
-#include "fitsimage.h"
-//#include "frame.h"
-#include "fitstoad.h"
-//#include "alltelinst.h"
-#include "vutils.h"
+#include <poloka/fitsimage.h>
+#include <poloka/fitstoad.h>
+#include <poloka/vutils.h>
 
 static int greatest_common_divider(int a, int b)
 {

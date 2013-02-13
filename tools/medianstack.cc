@@ -4,10 +4,11 @@
 #include <string>
 #include <vector>
 
-#include "fileutils.h"
-#include "fitsimage.h"
-#include "superflat.h"
-#include "fitsset.h"
+#include <poloka/fileutils.h>
+#include <poloka/fitsimage.h>
+
+#include <poloka/superflat.h>
+#include <poloka/fitsset.h>
 
 
 

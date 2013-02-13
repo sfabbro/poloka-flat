@@ -1,8 +1,9 @@
 #ifndef SUPERFLAT__H
 #define SUPERFLAT__H
 
-#include "image.h"
 #include <vector>
+
+#include <poloka/image.h>
 
 class FitsSet;
 

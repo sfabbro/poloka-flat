@@ -1,16 +1,8 @@
-/* 
- * $Source: /cvs/snovae/toads/poloka/flat/fitsimagearray.h,v $
- * $Revision: 1.2 $
- * $Author: guy $
- * $Date: 2006/12/22 13:35:40 $
- * $Name:  $
- */
-
 #ifndef FITSIMAGEARRAY__H
 #define FITSIMAGEARRAY__H
 
 #include <vector>
-#include "fitsimage.h"
+#include <poloka/fitsimage.h>
 
 //! Array of Image in a FITS file 
 /*! Inherites from FitsImage

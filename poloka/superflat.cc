@@ -1,23 +1,24 @@
 #include <iostream>
-//#include <fstream.h>
 #include <cstdio>
 #include <cmath>
 #include <vector>
 
-#include "fileutils.h"
-#include "vutils.h"
-#include "fitsimage.h"
-#include "imageback.h"
-#include "image.h"
-#include "frame.h"
-#include "superflat.h"
-//#include "dbimage.h"
-#include "fitsslice.h"
-#include "fitsset.h"
-#include "fitstoad.h"
-#include "imageinterpolation.h"
-#include "matvect.h"
-#include "fringeutils.h"
+#include <poloka/fileutils.h>
+#include <poloka/vutils.h>
+#include <poloka/fitsimage.h>
+#include <poloka/imageback.h>
+#include <poloka/image.h>
+#include <poloka/frame.h>
+#include <poloka/fitsslice.h>
+#include <poloka/fitstoad.h>
+#include <poloka/imageinterpolation.h>
+#include <poloka/matvect.h>
+#include <poloka/histo1d.h>
+#include <poloka/alltelinst.h>
+
+#include <poloka/fitsset.h>
+#include <poloka/superflat.h>
+#include <poloka/fringeutils.h>
 
 #ifdef A_FAIRE
 
@@ -573,8 +574,6 @@ Image *MakeRawMaskedMedian(const FitsSet &FitsFileSet, const FitsSet &MaskFitsFi
   return Median;
 }
 
-#include "histo1d.h"
-
 
 #ifdef STORAGE
 //*******************************************
@@ -626,7 +625,6 @@ else
   }
 }
   
-#include "alltelinst.h"
 
 //*****************************************
 //! sniffs if gain multiplied (by simply checking if gain is 1) and 

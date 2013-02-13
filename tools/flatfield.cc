@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "fileutils.h"
-#include "fitsimage.h"
-#include "dbimage.h"
-#include "superflat.h"
+#include <poloka/fileutils.h>
+#include <poloka/fitsimage.h>
+#include <poloka/dbimage.h>
+#include <poloka/superflat.h>
 
 
 
