@@ -1,10 +1,10 @@
-poloka-sub - image subtraction module for the poloka suite
-=============================================================
+poloka-flat - flatfielding  module for the poloka suite
+=======================================================
 
 Installation Instructions
 =========================
 
-poloka-sub follows the standard GNU installation procedure. To
+poloka-flat follows the standard GNU installation procedure. To
 compile poloka-sub you will a few packages described below. After
 unpacking the distribution you can install poloka-core using standard
 autotools:
@@ -14,7 +14,7 @@ autotools:
 Requirements
 ============
 
-poloka needs a few standard packages and compilers:
+poloka-flat needs a few standard packages and compilers:
 
 * A C/C++ compiler (tested with gcc/g++ up to version 4.7)
 * The pkg-config tool

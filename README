@@ -1,11 +1,15 @@
-poloka-sub
+poloka-flat
 ===========
 
 poloka is a software package to process astronomical
-images. poloka-sub is the image subtraction module
+images. poloka-flat is the flatfielding module
 of the poloka suite. It contains:
 
-* spatially variable kernel fitting between two images
-* production of subtracted image and simple point source detection
+* bias subtraction, flat and superflat building
+* fringe map building (with PCA) and automatic fringe subtraction
+
+It is a bit old and stale package since most observatories provide
+calibration files nowadays. It also needs a full rewrite as most
+poloka modules.
 
 To install poloka-sub, see the INSTALL file.
