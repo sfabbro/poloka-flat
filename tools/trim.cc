@@ -1,7 +1,7 @@
-#include "fitsimage.h"
-#include "frame.h"
-#include "fitstoad.h"
-#include "polokaexception.h"
+#include <poloka/fitsimage.h>
+#include <poloka/frame.h>
+#include <poloka/fitstoad.h>
+#include <poloka/polokaexception.h>
 
 static void usage()
 {

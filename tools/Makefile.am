@@ -9,6 +9,8 @@ AM_DEFAULT_SOURCE_EXT = .cc
 
 bin_PROGRAMS = \
 	correlation flatfield medianstack trim checkelixirflats \
-	defringe fringefinder makefringe rustine_for_fringe
+	 rustine_for_fringe
+# buggy
+#	defringe fringefinder makefringe
 
 LDADD = $(top_builddir)/poloka/libpoloka-flat.la

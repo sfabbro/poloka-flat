@@ -1,9 +1,14 @@
 #include <iostream>
 
+// TOADS
 #include <poloka/fitsimage.h>
 #include <poloka/matvect.h>
 #include <poloka/fringeutils.h>
 #include <poloka/fitsimagearray.h>
+
+
+// get cvs version of the code
+#define CVSVERSION "$Revision: 1.2 $"
 
 
 void DumpHelp(const char* programname) {
@@ -216,7 +221,7 @@ int main(int argc, char **argv) {
   
   fringes.AddCommentLine("----------------------------------------");
   
-  sprintf(comment,"Images produced by fringefinder");
+  sprintf(comment,"Images produced by fringefinder version %s",CVSVERSION);
   cout << comment << endl; fringes.AddCommentLine(comment);
   
   sprintf(comment,"Fringes output file name is %s",fringesname.c_str());
